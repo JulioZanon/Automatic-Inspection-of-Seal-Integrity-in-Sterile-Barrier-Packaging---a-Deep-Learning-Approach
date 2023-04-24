@@ -1,0 +1,75 @@
+{
+     "dataset_name": "middle_seal_breach\\rev_1_Full-50",
+     "root_folder": "D:\\Images\\EXP-PMS19-EG1_1CH",
+     "mask_folder": "Notation",
+     "dataset_description": "Pouch Middle Seal Breach. 50% class balance. Full Dataset",
+     "img_params": {
+          "img_size": [
+               3008,
+               4110
+          ],
+          "crop_origin": [
+               1650,
+               300
+          ],
+          "crop_size": [
+               600,
+               3550
+          ],
+          "img_resize": [
+               500,
+               3000
+          ]
+     },
+     "split_1": {
+          "split_name": "TrainingXVal",
+          "split_num_of_samples": 840,
+          "dataframe_columns": [
+               "names",
+               "image_paths",
+               "notation_paths",
+               "classes"
+          ],
+          "class_names": [
+               "NoLabel",
+               "seal_breach_0"
+          ],
+          "split_num_of_samples_per_class": [
+               420,
+               420
+          ],
+          "num_of_channels": 0
+     },
+     "split_2": {
+          "split_name": "Testing",
+          "split_num_of_samples": 360,
+          "dataframe_columns": [
+               "names",
+               "image_paths",
+               "notation_paths",
+               "classes"
+          ],
+          "class_names": [
+               "NoLabel",
+               "seal_breach_0"
+          ],
+          "split_num_of_samples_per_class": [
+               180,
+               180
+          ],
+          "num_of_channels": 0
+     },
+     "total_num_of_samples": 1200,
+     "img_augmentation": {
+          "horizontal_shift_range": 100,
+          "vertical_shift_range": 10,
+          "zoom": [
+               -0.1,
+               0.1
+          ],
+          "vertical_flip": false,
+          "horizontal_flip": true,
+          "rotation": 0.01,
+          "brightness_range": 0.2
+     }
+}
