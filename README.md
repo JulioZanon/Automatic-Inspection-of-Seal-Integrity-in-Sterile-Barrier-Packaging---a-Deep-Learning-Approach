@@ -13,5 +13,5 @@ Dependencies to other repositories:
 
 - Image Dataset: While this repository contains the csv files with the sub-splits, images need to be imported from https://doi.org/10.5281/zenodo.7834077
 - Trained Models: If you want to test the pre-trained models, files can be placed in  "\models\01_trained". These files are in the following repositories:
-          - No Augmentation: https://doi.org/10.5281/zenodo.7858060
+          - No Augmentation: https://doi.org/10.5281/zenodo.7859697
           - Augmentation:  https://doi.org/10.5281/zenodo.7858003
