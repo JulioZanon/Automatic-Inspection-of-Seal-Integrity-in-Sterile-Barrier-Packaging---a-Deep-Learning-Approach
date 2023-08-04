@@ -1,4 +1,4 @@
-# 2023_TF01
+# Automatic-Inspection-of-Seal-Integrity-in-Sterile-Barrier-Packaging---a-Deep-Learning-Approach
 Code to support paper: "Automatic Inspecting of Seal Integrity in Sterile Barrier Packaging: a Deep Learning Approach"
 
 Some of the folders required to run scripts are missing from repository. Please run "00_SetUp_Project_first_Use.py" first to create missing folders.
